@@ -1,0 +1,41 @@
+/* Coolors Exported Palette - coolors.co/042a2b-e9724c-d9dcd6-16425b-1f7a8c */
+
+/* RGB */
+$color1: rgba(4, 42, 43, 1);
+$color2: rgba(233, 114, 76, 1);
+$color3: rgba(234, 235, 232, 1);
+$color4: rgba(22, 66, 91, 1);
+$color5: rgba(31, 122, 140, 1);
+
+
+// components colors
+$color-primary: rgba(31, 122, 140, 1);
+$color-secondary: rgba(233, 114, 76, 1);
+
+$main-text-color: rgba(22, 66, 91, 1);
+$body-background-color: rgba(244, 245, 243, 1);
+
+
+// font families
+$main-font-family: "Slabo 27px", serif;
+$titles-font-family: "Patua One", serif;
+$body-font-family: $main-font-family;
+
+// font sizes
+$font-size-base: 16px;
+$font-size-small: $font-size-base - 6px;
+$font-size-large: $font-size-base + 6px;
+$font-size-h1: $font-size-base + 15px;
+$font-size-h2: $font-size-base + 12px;
+$font-size-h3: $font-size-base + 9px;
+$font-size-h4: $font-size-base + 6px;
+$font-size-h5: $font-size-base + 3px;
+$font-size-h6: $font-size-base;
+
+// responsive breakpoints
+$large-screen-width: 1024px; // iPad en landscape o superior
+$medium-screen-width: 768px; // iPad portrait
+$small-screen-width: $medium-screen-width - 1; // smartphones
+
+//border radius
+$border-radius-default: 5px;

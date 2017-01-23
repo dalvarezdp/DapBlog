@@ -1,0 +1,24 @@
+{
+  "name": "dapblog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "browser-sync": "^2.18.6",
+    "browserify": "^13.3.0",
+    "gulp": "^3.9.1",
+    "gulp-buffer": "0.0.2",
+    "gulp-notify": "^2.2.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-tap": "^0.1.3"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}
