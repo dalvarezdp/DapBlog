@@ -1,0 +1,19 @@
+//variables
+$footer-bg-color: darken($primary-color, 6.5%);
+$footer-color-text: $navbar-default-color;
+
+//styles
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: $footer-bg-color;
+
+  & .container .text-footer{
+    margin: 20px 0;
+    color: $footer-color-text;
+  }
+
+
+}
