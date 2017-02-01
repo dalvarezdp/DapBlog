@@ -1,0 +1,30 @@
+//variables
+$color-text: $main-text-color;
+
+//styles
+
+blockquote {
+  color: $primary-color;
+  font-style: italic;
+}
+
+.text-article{
+  font-size: 18px;
+  color: $color-text;
+  line-height: 1.5;
+  margin: 30px 0;
+
+}
+
+
+.intro-header {
+  background-color: #777777;
+  background: no-repeat center center;
+  background-attachment: scroll;
+
+  margin-bottom: 50px;
+}
+.intro-header .post-heading{
+  padding: 100px 0 50px;
+  color: black;
+}
