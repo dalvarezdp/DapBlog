@@ -1,17 +1,24 @@
 //variables
-$footer-bg-color: darken($primary-color, 6.5%);
+$footer-bg-color: $primary-color;
 $footer-color-text: $navbar-default-color;
 
 //styles
+
 .footer {
-  position: absolute;
+  display: flex;
+  justify-content: center;
+  position: relative;
   bottom: 0;
   width: 100%;
-  height: 60px;
+  height: 50px;
   background-color: $footer-bg-color;
+  color:white;
 
   & .container .text-footer{
-    margin: 20px 0;
+    color: $footer-color-text;
+  }
+
+  & a{
     color: $footer-color-text;
   }
 
