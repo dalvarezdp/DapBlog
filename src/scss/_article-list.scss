@@ -1,5 +1,5 @@
 //variables
-
+$color-button-megustaon: rgba(202, 24, 20, 0.92);
 
 //styles
 /*.article-list{
@@ -17,3 +17,7 @@
   @extend .media ;
 }
 */
+
+span.meGustaOn{
+  color: $color-button-megustaon;
+}
