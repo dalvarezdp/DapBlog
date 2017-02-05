@@ -28,3 +28,39 @@ blockquote {
   padding: 100px 0 50px;
   color: black;
 }
+
+.media-object{
+  width: 50px;
+  height: 50px;
+}
+
+
+.comentarios-list{
+
+  // ocultamos todos los div que tengan la clase ui-
+  div[class^="ui-"]{
+    display: none;
+  }
+
+  // estado ideal
+  &.ideal .ui-ideal{
+    display: block;
+    @include if-is-medium-screen {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+
+  // estado en blanco vacio
+  &.blank .ui-blank{
+    display: block;
+  }
+  // estado error
+  &.error .ui-error{
+    display: block;
+  }
+  // estado cargando
+  &.loading .ui-loading{
+    display: block;
+  }
+}

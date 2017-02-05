@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>DapBlog</title>
+    <title>DAPBLOG</title>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0">
     <link rel="stylesheet" href="dist/style.css">
 </head>
@@ -20,7 +20,7 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">DapBlog</a>
+                <a class="navbar-brand" href="#">DAPBLOG</a>
             </div>
             <div id="navbar" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
@@ -55,24 +55,33 @@
     <!-- Begin page content -->
     <section class="container article-list">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <div class="panel panel-default">
                     <div class="panel-body">
                         <div class="media">
                             <div class="media-middle">
                                 <a href="detail.html">
-                                    <img src="src/img/img-article.jpg" class="img-responsive" alt="Responsive image">
+                                    <img src="src/img/img-article.jpg" class="img-responsive imgBlog" alt="Responsive image">
                                 </a>
                             </div>
                             <div class="media-body">
                                 <div class="row">
                                     <div class="col-xs-12 col-md-12">
-                                        <h4 class="media-heading">Titulo de la noticia</h4>
+                                        <a href="detail.html"><h4 class="media-heading tituloBlog">Titulo de la noticia</h4></a>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <p>Foto, Pedro Gómez</p>
+                                        <div class="media">
+                                            <div class="media-left media-middle">
+                                                <img class="img-circle media-object" src="./src/img/avatar.png">
+                                            </div>
+                                            <div class="media-body nomUser">
+                                                <div class="NombreUsuario">
+                                                    <h4 class="media-heading">Pedro Gómez</h4>
+                                                </div>
+                                            </div>
+                                        </div>
 
                                     </div>
                                 </div>
@@ -81,9 +90,9 @@
                                         <p class="postDate">02/02/2017 22:29:25</p>
                                     </div>
                                     <div class="col-xs-6 col-md-6">
-                                        <div class="btn-group" role="group" aria-label="...">
+                                        <div class="btn-group" role="group">
                                             <button type="button" data-id="like1" class="btn btn-default meGusta"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></button>
-                                            <button type="button" class="btn btn-default"><span class="glyphicon glyphicon glyphicon-comment" aria-hidden="true"></span></button>
+                                            <a href="detail.html#comentarios" class="btn btn-default"><span class="glyphicon glyphicon glyphicon-comment" aria-hidden="true"></span> <span class="badge">7</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -96,35 +105,45 @@
                 </div>
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <div class="panel panel-default">
                     <div class="panel-body">
                         <div class="media">
                             <div class="media-middle">
-                                <a href="detail.html">
-                                    <img src="src/img/img-article.jpg" class="img-responsive" alt="Responsive image">
-                                </a>
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item imgBlog" src="src/video/Office.mp4"></iframe>
+                                </div>
+
                             </div>
                             <div class="media-body">
                                 <div class="row">
                                     <div class="col-xs-12 col-md-12">
-                                        <h4 class="media-heading">Titulo de la noticia</h4>
+                                        <a href="detail.html"><h4 class="media-heading tituloBlog">Titulo de la noticia</h4></a>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <p>Foto, Pedro Gómez</p>
+                                        <div class="media">
+                                            <div class="media-left media-middle">
+                                                <img class="img-circle media-object" src="./src/img/avatar.png">
+                                            </div>
+                                            <div class="media-body nomUser">
+                                                <div class="NombreUsuario">
+                                                    <h4 class="media-heading">Pedro Gómez</h4>
+                                                </div>
+                                            </div>
+                                        </div>
 
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-xs-6 col-md-6">
-                                        <p class="postDate">01/02/2017 22:29:35</p>
+                                        <p class="postDate">02/01/2017 22:29:25</p>
                                     </div>
                                     <div class="col-xs-6 col-md-6">
-                                        <div class="btn-group" role="group" aria-label="...">
+                                        <div class="btn-group" role="group">
                                             <button type="button" data-id="like2" class="btn btn-default meGusta"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></button>
-                                            <button type="button" class="btn btn-default"><span class="glyphicon glyphicon glyphicon-comment" aria-hidden="true"></span></button>
+                                            <a href="detail.html#comentarios" class="btn btn-default"><span class="glyphicon glyphicon glyphicon-comment" aria-hidden="true"></span> <span class="badge">7</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -139,35 +158,44 @@
 
 
 
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <div class="panel panel-default">
                     <div class="panel-body">
                         <div class="media">
                             <div class="media-middle">
                                 <a href="detail.html">
-                                    <img src="src/img/img-article.jpg" class="img-responsive" alt="Responsive image">
+                                    <img src="src/img/img-article.jpg" class="img-responsive imgBlog" alt="Responsive image">
                                 </a>
                             </div>
                             <div class="media-body">
                                 <div class="row">
                                     <div class="col-xs-12 col-md-12">
-                                        <h4 class="media-heading">Titulo de la noticia</h4>
+                                        <a href="detail.html"><h4 class="media-heading tituloBlog">Titulo de la noticia</h4></a>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <p>Foto, Pedro Gómez</p>
+                                        <div class="media">
+                                            <div class="media-left media-middle">
+                                                <img class="img-circle media-object" src="./src/img/avatar.png">
+                                            </div>
+                                            <div class="media-body nomUser">
+                                                <div class="NombreUsuario">
+                                                    <h4 class="media-heading">Pedro Gómez</h4>
+                                                </div>
+                                            </div>
+                                        </div>
 
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-xs-6 col-md-6">
-                                        <p class="postDate">31/01/2017 20:05</p>
+                                        <p class="postDate">05/02/2017 18:10:25</p>
                                     </div>
                                     <div class="col-xs-6 col-md-6">
-                                        <div class="btn-group" role="group" aria-label="...">
+                                        <div class="btn-group" role="group">
                                             <button type="button" data-id="like3" class="btn btn-default meGusta"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></button>
-                                            <button type="button" class="btn btn-default"><span class="glyphicon glyphicon glyphicon-comment" aria-hidden="true"></span></button>
+                                            <a href="detail.html#comentarios" class="btn btn-default"><span class="glyphicon glyphicon glyphicon-comment" aria-hidden="true"></span> <span class="badge">7</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -180,35 +208,44 @@
                 </div>
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <div class="panel panel-default">
                     <div class="panel-body">
                         <div class="media">
                             <div class="media-middle">
                                 <a href="detail.html">
-                                    <img src="src/img/img-article.jpg" class="img-responsive" alt="Responsive image">
+                                    <img src="src/img/img-article.jpg" class="img-responsive imgBlog" alt="Responsive image">
                                 </a>
                             </div>
                             <div class="media-body">
                                 <div class="row">
                                     <div class="col-xs-12 col-md-12">
-                                        <h4 class="media-heading">Titulo de la noticia</h4>
+                                        <a href="detail.html"><h4 class="media-heading tituloBlog">Titulo de la noticia</h4></a>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <p>Foto, Pedro Gómez</p>
+                                        <div class="media">
+                                            <div class="media-left media-middle">
+                                                <img class="img-circle media-object" src="./src/img/avatar.png">
+                                            </div>
+                                            <div class="media-body nomUser">
+                                                <div class="NombreUsuario">
+                                                    <h4 class="media-heading">Pedro Gómez</h4>
+                                                </div>
+                                            </div>
+                                        </div>
 
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-xs-6 col-md-6">
-                                        <p class="postDate">31/01/2017 20:05</p>
+                                        <p class="postDate">02/02/2017 22:29:25</p>
                                     </div>
                                     <div class="col-xs-6 col-md-6">
-                                        <div class="btn-group" role="group" aria-label="...">
+                                        <div class="btn-group" role="group">
                                             <button type="button" data-id="like4" class="btn btn-default meGusta"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></button>
-                                            <button type="button" class="btn btn-default"><span class="glyphicon glyphicon glyphicon-comment" aria-hidden="true"></span></button>
+                                            <a href="detail.html#comentarios" class="btn btn-default"><span class="glyphicon glyphicon glyphicon-comment" aria-hidden="true"></span> <span class="badge">7</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -221,35 +258,44 @@
                 </div>
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <div class="panel panel-default">
                     <div class="panel-body">
                         <div class="media">
                             <div class="media-middle">
-                                <a href="detail.html">
-                                    <img src="src/img/img-article.jpg" class="img-responsive" alt="Responsive image">
-                                </a>
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item imgBlog" src="src/video/Office.mp4"></iframe>
+                                </div>
                             </div>
                             <div class="media-body">
                                 <div class="row">
                                     <div class="col-xs-12 col-md-12">
-                                        <h4 class="media-heading">Titulo de la noticia</h4>
+                                        <a href="detail.html"><h4 class="media-heading tituloBlog">Titulo de la noticia</h4></a>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <p>Foto, Pedro Gómez</p>
+                                        <div class="media">
+                                            <div class="media-left media-middle">
+                                                <img class="img-circle media-object" src="./src/img/avatar.png">
+                                            </div>
+                                            <div class="media-body nomUser">
+                                                <div class="NombreUsuario">
+                                                    <h4 class="media-heading">Pedro Gómez</h4>
+                                                </div>
+                                            </div>
+                                        </div>
 
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-xs-6 col-md-6">
-                                        <p class="postDate">31/01/2017 20:05</p>
+                                        <p class="postDate">02/02/2017 22:29:25</p>
                                     </div>
                                     <div class="col-xs-6 col-md-6">
-                                        <div class="btn-group" role="group" aria-label="...">
+                                        <div class="btn-group" role="group">
                                             <button type="button" data-id="like5" class="btn btn-default meGusta"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></button>
-                                            <button type="button" class="btn btn-default"><span class="glyphicon glyphicon glyphicon-comment" aria-hidden="true"></span></button>
+                                            <a href="detail.html#comentarios" class="btn btn-default"><span class="glyphicon glyphicon glyphicon-comment" aria-hidden="true"></span> <span class="badge">7</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -262,35 +308,44 @@
                 </div>
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <div class="panel panel-default">
                     <div class="panel-body">
                         <div class="media">
                             <div class="media-middle">
                                 <a href="detail.html">
-                                    <img src="src/img/img-article.jpg" class="img-responsive" alt="Responsive image">
+                                    <img src="src/img/img-article.jpg" class="img-responsive imgBlog" alt="Responsive image">
                                 </a>
                             </div>
                             <div class="media-body">
                                 <div class="row">
                                     <div class="col-xs-12 col-md-12">
-                                        <h4 class="media-heading">Titulo de la noticia</h4>
+                                        <a href="detail.html"><h4 class="media-heading tituloBlog">Titulo de la noticia</h4></a>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <p>Foto, Pedro Gómez</p>
+                                        <div class="media">
+                                            <div class="media-left media-middle">
+                                                <img class="img-circle media-object" src="./src/img/avatar.png">
+                                            </div>
+                                            <div class="media-body nomUser">
+                                                <div class="NombreUsuario">
+                                                    <h4 class="media-heading">Pedro Gómez</h4>
+                                                </div>
+                                            </div>
+                                        </div>
 
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-xs-6 col-md-6">
-                                        <p class="postDate">31/01/2017 20:05</p>
+                                        <p class="postDate">02/02/2017 22:29:25</p>
                                     </div>
                                     <div class="col-xs-6 col-md-6">
-                                        <div class="btn-group" role="group" aria-label="...">
+                                        <div class="btn-group" role="group">
                                             <button type="button" data-id="like6" class="btn btn-default meGusta"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></button>
-                                            <button type="button" class="btn btn-default"><span class="glyphicon glyphicon glyphicon-comment" aria-hidden="true"></span></button>
+                                            <a href="detail.html#comentarios" class="btn btn-default"><span class="glyphicon glyphicon glyphicon-comment" aria-hidden="true"></span> <span class="badge">7</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -309,29 +364,38 @@
                         <div class="media">
                             <div class="media-middle">
                                 <a href="detail.html">
-                                    <img src="src/img/img-article.jpg" class="img-responsive" alt="Responsive image">
+                                    <img src="src/img/img-article.jpg" class="img-responsive imgBlog" alt="Responsive image">
                                 </a>
                             </div>
                             <div class="media-body">
                                 <div class="row">
                                     <div class="col-xs-12 col-md-12">
-                                        <h4 class="media-heading">Titulo de la noticia</h4>
+                                        <a href="detail.html"><h4 class="media-heading tituloBlog">Titulo de la noticia</h4></a>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <p>Foto, Pedro Gómez</p>
+                                        <div class="media">
+                                            <div class="media-left media-middle">
+                                                <img class="img-circle media-object" src="./src/img/avatar.png">
+                                            </div>
+                                            <div class="media-body nomUser">
+                                                <div class="NombreUsuario">
+                                                    <h4 class="media-heading">Pedro Gómez</h4>
+                                                </div>
+                                            </div>
+                                        </div>
 
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-xs-6 col-md-6">
-                                        <p class="postDate">31/01/2017 20:05</p>
+                                        <p class="postDate">02/02/2017 22:29:25</p>
                                     </div>
                                     <div class="col-xs-6 col-md-6">
-                                        <div class="btn-group" role="group" aria-label="...">
+                                        <div class="btn-group" role="group">
                                             <button type="button" data-id="like7" class="btn btn-default meGusta"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></button>
-                                            <button type="button" class="btn btn-default"><span class="glyphicon glyphicon glyphicon-comment" aria-hidden="true"></span></button>
+                                            <a href="detail.html#comentarios" class="btn btn-default"><span class="glyphicon glyphicon glyphicon-comment" aria-hidden="true"></span> <span class="badge">7</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -350,29 +414,38 @@
                         <div class="media">
                             <div class="media-middle">
                                 <a href="detail.html">
-                                    <img src="src/img/img-article.jpg" class="img-responsive" alt="Responsive image">
+                                    <img src="src/img/img-article.jpg" class="img-responsive imgBlog" alt="Responsive image">
                                 </a>
                             </div>
                             <div class="media-body">
                                 <div class="row">
                                     <div class="col-xs-12 col-md-12">
-                                        <h4 class="media-heading">Titulo de la noticia</h4>
+                                        <a href="detail.html"><h4 class="media-heading tituloBlog">Titulo de la noticia</h4></a>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <p>Foto, Pedro Gómez</p>
+                                        <div class="media">
+                                            <div class="media-left media-middle">
+                                                <img class="img-circle media-object" src="./src/img/avatar.png">
+                                            </div>
+                                            <div class="media-body nomUser">
+                                                <div class="NombreUsuario">
+                                                    <h4 class="media-heading">Pedro Gómez</h4>
+                                                </div>
+                                            </div>
+                                        </div>
 
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-xs-6 col-md-6">
-                                        <p class="postDate">31/01/2017 20:05</p>
+                                        <p class="postDate">02/02/2017 22:29:25</p>
                                     </div>
                                     <div class="col-xs-6 col-md-6">
-                                        <div class="btn-group" role="group" aria-label="...">
+                                        <div class="btn-group" role="group">
                                             <button type="button" data-id="like8" class="btn btn-default meGusta"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></button>
-                                            <button type="button" class="btn btn-default"><span class="glyphicon glyphicon glyphicon-comment" aria-hidden="true"></span></button>
+                                            <a href="detail.html#comentarios" class="btn btn-default"><span class="glyphicon glyphicon glyphicon-comment" aria-hidden="true"></span> <span class="badge">7</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -391,29 +464,38 @@
                         <div class="media">
                             <div class="media-middle">
                                 <a href="detail.html">
-                                    <img src="src/img/img-article.jpg" class="img-responsive" alt="Responsive image">
+                                    <img src="src/img/img-article.jpg" class="img-responsive imgBlog" alt="Responsive image">
                                 </a>
                             </div>
                             <div class="media-body">
                                 <div class="row">
                                     <div class="col-xs-12 col-md-12">
-                                        <h4 class="media-heading">Titulo de la noticia</h4>
+                                        <a href="detail.html"><h4 class="media-heading tituloBlog">Titulo de la noticia</h4></a>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <p>Foto, Pedro Gómez</p>
+                                        <div class="media">
+                                            <div class="media-left media-middle">
+                                                <img class="img-circle media-object" src="./src/img/avatar.png">
+                                            </div>
+                                            <div class="media-body nomUser">
+                                                <div class="NombreUsuario">
+                                                    <h4 class="media-heading">Pedro Gómez</h4>
+                                                </div>
+                                            </div>
+                                        </div>
 
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-xs-6 col-md-6">
-                                        <p class="postDate">31/01/2017 20:05</p>
+                                        <p class="postDate">02/02/2017 22:29:25</p>
                                     </div>
                                     <div class="col-xs-6 col-md-6">
-                                        <div class="btn-group" role="group" aria-label="...">
+                                        <div class="btn-group" role="group">
                                             <button type="button" data-id="like9" class="btn btn-default meGusta"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></button>
-                                            <button type="button" class="btn btn-default"><span class="glyphicon glyphicon glyphicon-comment" aria-hidden="true"></span></button>
+                                            <a href="detail.html#comentarios" class="btn btn-default"><span class="glyphicon glyphicon glyphicon-comment" aria-hidden="true"></span> <span class="badge">7</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -432,29 +514,38 @@
                         <div class="media">
                             <div class="media-middle">
                                 <a href="detail.html">
-                                    <img src="src/img/img-article.jpg" class="img-responsive" alt="Responsive image">
+                                    <img src="src/img/img-article.jpg" class="img-responsive imgBlog" alt="Responsive image">
                                 </a>
                             </div>
                             <div class="media-body">
                                 <div class="row">
                                     <div class="col-xs-12 col-md-12">
-                                        <h4 class="media-heading">Titulo de la noticia</h4>
+                                        <a href="detail.html"><h4 class="media-heading tituloBlog">Titulo de la noticia</h4></a>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <p>Foto, Pedro Gómez</p>
+                                        <div class="media">
+                                            <div class="media-left media-middle">
+                                                <img class="img-circle media-object" src="./src/img/avatar.png">
+                                            </div>
+                                            <div class="media-body nomUser">
+                                                <div class="NombreUsuario">
+                                                    <h4 class="media-heading">Pedro Gómez</h4>
+                                                </div>
+                                            </div>
+                                        </div>
 
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-xs-6 col-md-6">
-                                        <p class="postDate">31/01/2017 20:05</p>
+                                        <p class="postDate">02/02/2017 22:29:25</p>
                                     </div>
                                     <div class="col-xs-6 col-md-6">
-                                        <div class="btn-group" role="group" aria-label="...">
+                                        <div class="btn-group" role="group">
                                             <button type="button" data-id="like10" class="btn btn-default meGusta"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></button>
-                                            <button type="button" class="btn btn-default"><span class="glyphicon glyphicon glyphicon-comment" aria-hidden="true"></span></button>
+                                            <a href="detail.html#comentarios" class="btn btn-default"><span class="glyphicon glyphicon glyphicon-comment" aria-hidden="true"></span> <span class="badge">7</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -470,13 +561,25 @@
 
         </div>
 
+        <div class="navegacion">
+            <div class="row">
+                <div class="col-xs-6">
+                    <p><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span> Antiguos</button></p>
+                </div>
+                <div class="col-xs-6">
+                    <p class="buttonRecientes"><button type="button" class="btn btn-default">Recientes <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></button></p>
+                </div>
+            </div>
+        </div>
 
     </section>
+
+
 
     <footer class="footer">
         <div class="container">
             <p class="text-footer">DapBlog</p>
-            <a class="btn btn-default button-up" href="#" role="button">Subir</a>
+            <p><a class="btn btn-default button-up" href="#" role="button">Subir</a></p>
         </div>
     </footer>
 

@@ -1,5 +1,6 @@
 //variables
 $color-button-megustaon: rgba(202, 24, 20, 0.92);
+$color-link: $primary-color;
 
 //styles
 /*.article-list{
@@ -21,3 +22,76 @@ $color-button-megustaon: rgba(202, 24, 20, 0.92);
 span.meGustaOn{
   color: $color-button-megustaon;
 }
+
+.buttonRecientes{
+  float: right;
+}
+
+.media{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.nomUser{
+  vertical-align:middle;
+}
+
+.imgBlog{
+  padding-bottom: 10px;
+}
+
+.tituloBlog{
+  font-size: 25px;
+
+  @include if-is-medium-screen {
+      font-size: 30px;
+    }
+
+}
+
+.postDate{
+  padding-top: 5px;
+  font-size: 12px;
+  @include if-is-medium-screen {
+      padding-top: 10px;
+      font-size: 16px;
+    }
+  padding-bottom: 5px;
+  font-style: italic;
+  vertical-align:middle;
+}
+
+.btn-group{
+  padding-top: 5px;
+  @include if-is-medium-screen {
+      padding-top: 10px;
+    }
+  padding-bottom: 5px;
+  float: right;
+  margin-right: 10px;
+}
+
+a{
+  &:link {
+    text-decoration:none;
+    color: $color-link;
+  }
+  &:visited {
+      color: green;
+  }
+  &:hover {
+      color: $secondary-color;
+  }
+  &:active {
+      color: $main-text-color;
+  }
+}
+
+
+/* visited link */
+
+
+/* mouse over link */
+
+
+/* selected link */

@@ -1,5 +1,6 @@
 var $ = jQuery = require('jquery');
 var moment = require('moment');
+require('moment/locale/es');
 
 var fechas = $('.postDate');
 var fechaHoy = moment();

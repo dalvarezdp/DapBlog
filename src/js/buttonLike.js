@@ -5,11 +5,9 @@ var buttonsLike = $('.meGusta');
 
 
 function cargarLikes() {
-  console.log(buttonsLike);
 
   buttonsLike.each(function () {
     var likeId = $(this).data("id");
-    console.log(likeId);
     if (localStorage.getItem(likeId) == "1") {
       var spanDato = $(this).children(".glyphicon-heart");
       spanDato.addClass("meGustaOn");

@@ -46,7 +46,28 @@ var imagesConfig = {
     src: "src/img/*",
     dest: "./dist/img/",
     responsive: {
-        'disc-placeholder.jpg': [ // 520, 320, 250, 125
+        'img-article.jpg': [ // 520, 320, 250, 125
+            {
+                width: 520,
+                rename: { suffix: '-520px' }
+            },
+            {
+                width: 320,
+                rename: { suffix: '-320px' }
+            },
+            {
+                width: 250,
+                rename: { suffix: '-250px' }
+            },
+            {
+                width: 125,
+                rename: { suffix: '-125px' }
+            },
+            {
+                rename: { suffix: '-original' }
+            }
+        ],
+        'avatar.png': [ // 520, 320, 250, 125
             {
                 width: 520,
                 rename: { suffix: '-520px' }
@@ -70,6 +91,7 @@ var imagesConfig = {
     }
 };
 
+/*
 var sprites = {
     spritesTaskName: 'sprites',
     imgSrc: './src/img/sprites/*.png',
@@ -158,7 +180,7 @@ gulp.task(imagesConfig.imagesTaskName, function () {
     .pipe(gulp.dest(imagesConfig.dest));
 })
 
-
+/*
 // generacion de spritesheets
 gulp.task(sprites.spritesTaskName, function(){
     var spriteData = gulp.src(sprites.imgSrc).

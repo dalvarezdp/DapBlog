@@ -54,7 +54,6 @@
 
     <header class="intro-header" style="background-image: url('/src/img/img-article.jpg')"></header>
 
-
     <article>
         <div class="container">
             <div class="row">
@@ -63,7 +62,7 @@
                         <img src="/src/img/img-article.jpg" alt="img-header" class="img-responsive img-header">
                         <h1>Main title</h1>
                         <h2 class="subheading">Subtitle</h2>
-                        <span class="meta">Posted by <a href="#">David Álvarez</a> 24 de agosto, 2016</span>
+                        <span class="meta">Posted by <a href="http://www.google.es/">David Álvarez</a> 24 de agosto, 2016</span>
                     </div>
                 </div>
             </div>
@@ -95,14 +94,94 @@
     </article>
 
 
+    <section id="comentarios">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="panel panel-success">
+                        <!-- Default panel contents -->
+                        <div class="panel-heading">Comentarios</div>
 
+                        <section class="comentarios-list">
+                            <div class="ui-ideal">
+                                <article class="comentario">
+                                    <!-- List group -->
+                                    <ul class="list-group">
+                                        <li class="list-group-item">
+                                            <div class="media">
+                                                <div class="media-left media-middle">
+                                                    <img class="img-circle media-object" src="./src/img/avatar.png">
+                                                </div>
+                                                <div class="media-body">
+                                                    <div class="nomComentario">
+                                                        <h4 class="media-heading">David Álvarez del Pino</h4>
+                                                    </div>
+                                                    <div class="comentario">
+                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt est laborum.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </article>
+                            </div>
+                            <div class="ui-error">
+                                Se ha producido un error.
+                            </div>
+                            <div class="ui-blank">
+                                <p>Aún no hay ningún comentario.</p>
+                            </div>
+                            <div class="ui-loading">
+                                Cargando...
+                            </div>
 
+                        </section>
+
+                    </div>
+
+                    <form class="form-horizontal new-comentario-form">
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">Nombre</label>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control" id="nombre" placeholder="Nombre" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">Apellidos</label>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control" id="apellidos" placeholder="Apellidos" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">Email</label>
+                            <div class="col-sm-4">
+                                <input type="email" class="form-control" id="email" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">Mensaje</label>
+                            <div class="col-sm-6">
+                                <textarea class="form-control" rows="6" id="mensaje" placeholder="Mensaje" required></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-sm-offset-4 col-sm-10">
+                                <button type="submit" class="btn btn-default">Añadir</button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <footer class="footer">
         <div class="container">
             <p class="text-footer">DapBlog</p>
-            <a class="btn btn-default button-up" href="#" role="button">Subir</a>
+            <p><a class="btn btn-default button-up" href="#" role="button">Subir</a></p>
         </div>
     </footer>
 
